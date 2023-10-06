@@ -145,7 +145,7 @@ print("png_path:",dmat_quantity.png_path)
 
 
     
-![png](quantiry_outtree.png)
+![png](https://github.com/wronganswer/dimtributor/blob/main/quantity_outtree.png)
     
 
 
@@ -279,7 +279,7 @@ print("png_path:",dmat_rate.png_path)
 
 
     
-![png](rate_outtree.png)
+![png](https://github.com/wronganswer/dimtributor/blob/main/rate_outtree.png)
     
 
 
