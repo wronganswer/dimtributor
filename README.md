@@ -150,7 +150,7 @@ print("png_path:",dmat_quantity.png_path)
 
 
     outtree: {'Decrease:2137268\n27318803->25181535,-7.82%\n account for root:100.0%': {'create_datediff:0day\n account for parent:69.62%': 'create_datediff:0day\nDecrease:1488059\n1823660->335601,-81.6%\n account for root:69.62%', 'create_datediff:not 0day\n account for parent:30.38%': 'create_datediff:not 0day\nDecrease:649209\n25495143->24845934,-2.55%\n account for root:30.38%'}}
-    png_path: /xx/quantiry_outtree.png
+    png_path: /xx/quantity_outtree.png
 
 
 # Example: for rate indicator
