@@ -1,0 +1,23 @@
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dimtributor"
+version = "0.0.2"
+authors = [
+  { name="kennyzhang", email="124466529@qq.com" },
+]
+description = "a python package for automatical dimension attribution"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/wronganswer/dimtributor"
+"Bug Tracker" = "https://github.com/wronganswer/dimtributor/issues"
