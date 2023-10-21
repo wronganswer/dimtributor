@@ -136,8 +136,10 @@ group = 'group_name'
 value_type = 'quantity' # you are deal with a quantity indicator
 dims = ["app_name","platform","country","language","create_datediff"] #all the dimensions you interested
 y = 'orders' # the indicator you want to analysis
+max_tree_depth = 3 #default value 3
+min_root_weight = 0.3 #default value 0.3
 
-dmat_quantity = DimtributorTree(df_quantity,value_type,group,dims,y)
+dmat_quantity = DimtributorTree(df_quantity,value_type,group,dims,y,max_tree_depth,min_root_weight)
 dmat_quantity.createtree()
 print("outtree:",dmat_quantity.outtree)
 print("png_path:",dmat_quantity.png_path)
@@ -271,7 +273,10 @@ dims = ["app_name","platform","region","language"] #all the dimensions you inter
 y = 'conversion_rate' # the indicator you want to analysis
 d = 'denominator' #must for rate indicators
 n = 'numerator' #must for rate indicators
-dmat_rate = DimtributorTree(df_rate,value_type,group,dims,y,d,n)
+max_tree_depth = 3 #default value 3
+min_root_weight = 0.3 #default value 0.3
+
+dmat_rate = DimtributorTree(df_rate,value_type,group,dims,y,d,n,max_tree_depth,min_root_weight)
 dmat_rate.createtree()
 print("outtree:",dmat_rate.outtree)
 print("png_path:",dmat_rate.png_path)
